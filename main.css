@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font: 400;
+}
+.text-foto {
+  padding-left: 8%;
+  width: 200px;
+  height: 65px;
+  transform: skew(-20deg) translateX(-30%);
+  background: rgba(96, 225, 248, 0.5);
+  z-index: -1;
+}
+.fa-color {
+  background: -webkit-gradient(
+  linear, 
+  left top, 
+  left bottom, 
+  from(rgb(242, 45, 213)), 
+  to(rgb(23, 126, 157)));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+h1 {
+  max-width: 30rem;
+  height: auto;
+  color: black;
+  box-shadow: 0 0 15px 7px rgb(99, 216, 237);
+  margin: auto;
+  padding: 0.7rem;
+  font-style: italic;
+  background-color: rgb(173, 216, 230, 0.5);
+  
+}
+.news {
+  max-width: 40rem;
+  height: auto;
+  color: black;
+  box-shadow: 0 0 15px 7px rgb(99, 216, 237);
+  border: 1px solid rgb(138, 43, 226);
+  margin: auto;
+  padding: 1rem;
+  font-style: italic;
+  background-color: rgb(173, 216, 230, 0.5);
+}
+.text-i {
+  font-size: 1.2rem;
+  text-align: center;
+}
